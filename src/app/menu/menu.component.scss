@@ -1,0 +1,27 @@
+.menu-icon {
+    cursor: pointer;
+    padding: 8px;
+}
+
+/*style for the dropdown menu*/
+.dropdown-menu {
+    background-color: #D2DE32;
+    border: none;
+    margin-top: 0.5rem;
+    /*Adds a little space between the icon and the dropdown*/
+
+}
+
+/* Ensures the dropdown menu is shown when dropdownOpen is true */
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown-menu .dropdown-item {
+    width: 30%;
+    color: #191919;
+}

@@ -1,0 +1,27 @@
+<!-- <p>menu works!</p> -->
+<nav class="navbar" style="background-color: #D2DE32;">
+    <div class="container-fluid">
+        <!-- Logo space -->
+        <a class="navbar-brand" href="#">
+            <!-- <img src="path_to_logo.png" alt="Logo" width="30" height="24"> -->
+        </a>
+        <!-- Optional additional navigation links -->
+        <div class="dropdown">
+            <svg width="101" height="101" viewBox="0 0 407 407" (click)="toggleDropdown()" [class.show]="dropdownOpen"
+                fill="none" xmlns="http://www.w3.org/2000/svg" style="cursor: pointer;" class="bi bi-list menu-icon">
+                <circle cx="203.5" cy="203.5" r="183.5" stroke="#5B0888" stroke-width="40" />
+                <path d="M105 141.077L307 137" stroke="#5B0888" stroke-width="40" stroke-linecap="round" />
+                <path d="M105 260L307 137" stroke="#5B0888" stroke-width="40" stroke-linecap="round" />
+                <path d="M105 260.588L302.642 260" stroke="#5B0888" stroke-width="40" stroke-linecap="round" />
+                <line x1="233.515" y1="190.485" x2="233.569" y2="217.533" stroke="#5B0888" stroke-width="15"
+                    stroke-linecap="round" />
+            </svg>
+
+            <div class="dropdown-menu" [class.show]="dropdownOpen">
+                <div> <a class="dropdown-item" href="#">Action</a></div>
+                <div> <a class="dropdown-item" href="#">Another action</a></div>
+                <div> <a class="dropdown-item" href="#">Something else here</a></div>
+            </div>
+        </div>
+    </div>
+</nav>
